@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    font-family: cursive;
+    background-color: rgb(252, 244, 248)
+}
+#hello{
+    background-image: url(imghafsah/smiles.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.6;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(75, 18, 47);
+    z-index: 5;
+}
+#navbar ul{
+    display: flex;
+    justify-content: flex-end ;
+    
+}
+#navbar ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(243, 208, 223);
+    font-size: 18px;
+}
+.naming{
+    text-align: center;
+    margin-top: -100px;
+    font-size: 2.5em;
+    color: black;
+}
+.slackimg{
+    margin-top: 60px ;
+    /* margin-left: 30em; */
+}
+#slackimg{
+    width: 15em;
+    height: 16em;
+    border: 3px solid rgb(75, 18, 47) ;
+    border-radius: 50%;
+}
+#bio{
+display: flex;
+flex-flow: row;
+justify-content: center;
+align-items: center;
+width: 70%;
+margin: auto;
+height: 70vh;
+}
+#bio h1{
+    font-size: 35px;
+    color: rgb(75, 18, 47);
+}
+.bio{ 
+    margin-left: 9em;
+}
+.bio h1, p{
+    margin: 1.5px;
+    padding: 1px;
+}
+#about{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 211, 226);
+    margin-top: 7em;
+}
+#about div h1{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: rgb(75, 18, 47);
+}
+#contact{
+    height: 90vh;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+#contact div h1{
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: rgb(75, 18, 47);
+}
+#contact div h2{
+    font-size: 27px;
+    padding-bottom: 30px;
+    color: rgb(172, 63, 119);
+}
+#contactform{
+    background-color:rgb(172, 63, 119);
+    width: 20%;
+    margin: 50px auto;
+    border-radius: 5%;
+    padding: 20px;
+}
+  input, textarea{
+    border-radius: 5px;
+    padding: 8px;
+}
+textarea{
+    width: 70%;
+}
+#contactform label{
+margin-left: -50px;
+}
+.space{
+    height: 25vh
+}
+#socialmedia{
+    background-color: rgb(75, 18, 47);
+    position: relative;
+    padding: 5px;
+}
+#socialmedia ul{
+top: 100%;
+bottom: 0;
+display: flex;
+justify-content: space-evenly;
+}
+#socialmedia li{
+    list-style-type: none;
+    padding: 10px;
+}
+#socialmedia li a{
+    text-decoration: none;
+    color: rgb(243, 208, 223);
+}
+#socialmedia p{
+    text-align: center;
+    color: rgb(243, 208, 223);
+    padding: 10px
+}
+
+@media screen and (max-width:805px){
+    .naming{
+        font-size: 1.4em;
+    }
+     #bio{
+        flex-flow: column;
+        height: 100vh;
+        margin: 40px auto;
+    }
+    .bio{
+        margin: auto 55px;
+    }
+    #about{
+        display: block;
+    }
+    #contactform{
+        width: 50%;
+    }
+}
+@media screen and (max-width:)
