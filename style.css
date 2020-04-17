@@ -116,8 +116,8 @@ height: 70vh;
 textarea{
     width: 70%;
 }
-#contactform label{
-margin-left: -50px;
+input{
+    width: 50%;
 }
 .space{
     height: 25vh
@@ -165,5 +165,7 @@ justify-content: space-evenly;
     #contactform{
         width: 50%;
     }
+    body{
+    font-family: sans-serif;
+    }
 }
-@media screen and (max-width:)
