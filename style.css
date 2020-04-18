@@ -80,6 +80,9 @@ height: 70vh;
     background-color: rgb(241, 211, 226);
     margin-top: 7em;
 }
+#about div{
+    padding: 5%;
+}
 #about div h1{
     text-align: center;
     font-size: 35px;
@@ -106,12 +109,15 @@ height: 70vh;
     background-color:rgb(172, 63, 119);
     width: 20%;
     margin: 50px auto;
+    border: 2px solid rgb(75, 18, 47) ;
     border-radius: 5%;
     padding: 20px;
 }
   input, textarea{
+      border: 1px solid rgb(75, 18, 47) ;
     border-radius: 5px;
     padding: 8px;
+    background-color:rgb(243, 208, 223);
 }
 textarea{
     width: 60%;
@@ -120,11 +126,12 @@ input{
     width: 50%;
 }
 .space{
-    height: 25vh
+    height: 25vh;
 }
 #socialmedia{
-    background-color: rgb(75, 18, 47);
-    position: relative;
+    background-color: #4b122f;
+    position: absolute;
+    width: 100%;
     padding: 5px;
 }
 #socialmedia ul{
@@ -135,7 +142,7 @@ justify-content: space-evenly;
 }
 #socialmedia li{
     list-style-type: none;
-    padding: 10px;
+    padding: 15px;
 }
 #socialmedia li a{
     text-decoration: none;
